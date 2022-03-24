@@ -1,5 +1,5 @@
 ### Hi there 👋
-🔭 I’m currently working with TCS INDIA 
+🔭 I’m currently working with TCS INDIA <br>
 🌱 I’m currently learning Animation using blender 
 👯 I’m looking to collaborate on meta verse 
 <!--
