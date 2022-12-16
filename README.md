@@ -1,5 +1,5 @@
 ### Hi there 👋
-🔭 I’m currently working with TCS INDIA for NCRA PUNE<br>
+🔭 I’m currently working with TCS INDIA for NCRA PUNE as CS developer of SKA Radio Telescope<br>
 🌱 I’m currently learning Animation using blender <br>
 👯 I’m looking to collaborate on meta verse based projects <br>
 ⚡ Fun fact: i like to code malicious codes <br>
