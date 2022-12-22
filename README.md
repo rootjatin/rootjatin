@@ -3,6 +3,7 @@
 🌱 I’m currently learning Animation using blender <br>
 👯 I’m looking to collaborate on meta verse based projects <br>
 ⚡ Fun fact: i like to code malicious codes <br>
+💬 ask me about the OpenGL
 you can send me mail on rootjatin@gmail.com 
 <br>
 
