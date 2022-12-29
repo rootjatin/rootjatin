@@ -4,7 +4,7 @@
 👯 I’m looking to collaborate on meta verse based projects <br>
 ⚡ Fun fact: i like to code malicious codes <br>
 💬 ask me about the OpenGL
-you can send me mail on rootjatin@gmail.com 
+you can send me mail on rootjatin@gmail.com <br>
 visit my website www.jatinsharma.life
 <br>
 
