@@ -6,7 +6,7 @@
 💬 ask me about the OpenGL
 you can send me mail on rootjatin@gmail.com <br>
 visit my website www.jatinsharma.life
-currently working on mathematics competitive programming platform
+currently working on mathematics competitive programming platform than can also be used to make neural network 
 <br>
 
 
