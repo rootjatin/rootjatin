@@ -31,4 +31,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin&" alt="rootjatin" /></p>
-
