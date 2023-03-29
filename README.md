@@ -18,17 +18,14 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rootjatin" alt="rootjatin" /></a> </p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I’m+currently+working+on+SKAO+Radio+Telescope🔭;looking+to+collaborate+on+Compiler+based+project;sometime+i+make+viruses;ask+me+about+opengl)](https://rootjatin.github.io)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=currently+working+as+cs+developer+at;SKAO+Radio+Telescope;looking+to+collaborate+on;Compiler+based+project;fond+of+making+viruses;ask+me+about+opengl)](https://rootjatin.github.io)
 
 
 
 - 👨‍💻 All of my projects are available at [rootjatin.github.io](rootjatin.github.io)
 
-- 💬 Ask me about **OPENGL , VIRUS**
-
 - 📫 How to reach me **rootjatin@gmail.com**
 
-- ⚡ Fun fact **I think i am Boring**
 
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en&layout=compact" alt="rootjatin" /></p>
