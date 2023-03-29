@@ -1,30 +1,38 @@
-### Hi there 👋
-🔭 I’m currently working with TCS INDIA for NCRA PUNE as Control System developer of SKA Radio Telescope<br>
-🌱 I’m currently learning Animation using blender <br>
-👯 I’m looking to collaborate on meta verse based projects <br>
-⚡ Fun fact: i like to code malicious codes <br>
-My contributions in PyPI<br>
-1.pythree - library in development which can be used to create 3d Shapes using mathematics equation also can be used to show data in 3D<br>
-2. concloop - concurrent looping library still in development to control control statements using time constraints <br>
+# Hi there, I'm [Jatin](https://rootjatin.github.io) 👋
 
-💬 ask me about the OpenGL
-you can send me mail on rootjatin@gmail.com <br>
-visit my website www.jatinsharma.life
-currently working on mathematics competitive programming platform
-<br>
+## 🔭 I’m currently working on
+- Building cool projects that help people learn and grow
 
+## 🌱 I’m currently learning
+- Machine Learning
+- React Native
+- Python Libraries
 
-<!--
-**rootjatin/rootjatin** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 👯 I’m looking to collaborate on
+- Open-source projects
+- Projects that make a positive impact
 
-Here are some ideas to get you started:
+## 💬 Ask me about
+- Anything related to programming
+- Tips for learning to code
+- How to get started with open source
 
-🔭 I’m currently working with TCS INDIA 
-🌱 I’m currently learning Animation using blender 
-👯 I’m looking to collaborate on meta verse 
+## 📫 How to reach me
+- [Email](mailto:rootjatin@gmail.com)
+- [Twitter](https://twitter.com/your-twitter-handle)
+- [LinkedIn](https://www.linkedin.com/in/rootjatin)
 
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## ⚡ Fun fact
+- I love to play guitar and write songs
+
+## 📊 My GitHub Stats
+
+![Github stats](https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true)
+
+## 🏆 My Github Trophies
+
+![Github Trophies](https://github-profile-trophy.vercel.app/?username=rootjatin)
+
+## 📈 My Contribution Graph
+
+![Github graph](https://activity-graph.herokuapp.com/graph?username=rootjatin&bg_color=ffffff&color=3182CE&line=3182CE&point=black&area=true&hide_border=true)
