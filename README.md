@@ -26,18 +26,15 @@
 
 - 📫 How to reach me **rootjatin@gmail.com**
 
+<h3>Github Stats</h3>
+<p>&nbsp; <img src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" /></p>
 
 <h3>Streak</h3>
-<p>&nbsp;<img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin&" alt="rootjatin" /></p> 
-<p>&nbsp;</p>
-<h3>Github Stats</h3>
-<p>&nbsp;</p>
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" />
-</p>
+<p>&nbsp;<img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin" alt="rootjatin" /></p> 
+
 <p>&nbsp;</p>
 <h3>Language Contribution</h3>
-<p>
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en&layout=compact" alt="rootjatin" />
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" />
 </p>
 
 
