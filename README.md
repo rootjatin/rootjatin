@@ -30,11 +30,14 @@
 
 <p>&nbsp;<img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin&" alt="rootjatin" /></p> 
 
-<p style="display: inline-block;">
+<h3>Streak</h3>
+<p>
     <img align="left" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" />
 </p>
-
-<p style="display: inline-block;">
+<p>&nbsp;</p>
+<h3>Language Contribution</h3>
+<p>&nbsp;</p>
+<p>
     <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en&layout=compact" alt="rootjatin" />
 </p>
 
