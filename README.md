@@ -34,7 +34,6 @@
 
 <p>&nbsp;</p>
 <h3>Language Contribution</h3>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" />
-</p>
+![Github stats](https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true)
 
 
