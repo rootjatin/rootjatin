@@ -13,15 +13,14 @@
       <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white"></a>
       <a href="#"><img alt="Pytest" src="https://img.shields.io/badge/Pytest-0A9EDC.svg?logo=pytest&logoColor=white"></a>
   </p>
-<h3 > ⚡ An another developer</h3>
 
 <h3 > ⚡ Trophies</h3>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rootjatin" alt="rootjatin" /></a> </p>
 
-- 🔭 I’m currently working on **SKAO Radio Telescope**
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=I’m+currently+working+on+SKAO+Radio+Telescope🔭;looking+to+collaborate+on+Compiler+based+project;sometime+i+make+viruses;ask+me+about+opengl)](https://rootjatin.github.io)
 
-- 👯 I’m looking to collaborate on **Compiler based project**
+
 
 - 👨‍💻 All of my projects are available at [rootjatin.github.io](rootjatin.github.io)
 
@@ -37,3 +36,4 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin&" alt="rootjatin" /></p>
+=
