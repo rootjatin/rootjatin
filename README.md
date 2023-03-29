@@ -32,7 +32,7 @@
 <p>&nbsp;</p>
 <h3>Github Stats</h3>
 <p>&nbsp;</p>
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" />
+<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" />
 </p>
 <p>&nbsp;</p>
 <h3>Language Contribution</h3>
