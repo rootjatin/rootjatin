@@ -30,6 +30,5 @@
 
 
 <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" /></p>
-<br>
 <p><img align="left" src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin&" alt="rootjatin" /></p>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en&layout=compact" alt="rootjatin" /></p>
