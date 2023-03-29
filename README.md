@@ -41,9 +41,10 @@
 
   <!-- https://github.com/anuraghazra/github-readme-stats -->
 
-  <a href="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en&layout=compact" height="192px"/></a>
-  <a href="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" height="192px" alt="rootjatin"/></a>
-  <br/>
+ <p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&locale=en" alt="rootjatin" /></p> 
+
+<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=rootjatin&show_icons=true&locale=en&layout=compact" alt="rootjatin" /> </p> 
+  
 
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
   
