@@ -36,3 +36,10 @@
 ## 📈 My Contribution Graph
 
 ![Github graph](https://activity-graph.herokuapp.com/graph?username=rootjatin&bg_color=ffffff&color=3182CE&line=3182CE&point=black&area=true&hide_border=true)
+
+
+<p align="center">
+  <a href="https://github.com/rootjatin">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=rootjatin&theme=dark"/>
+  </a>
+</p>
