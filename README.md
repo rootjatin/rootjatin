@@ -18,7 +18,7 @@
 
 <h3 > ⚡ Trophies</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rootjatin" alt="rootjatin" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rootjatin&theme=onedark" alt="rootjatin" /></a> </p>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=currently+working+as+cs+developer+at;SKAO+Radio+Telescope;looking+to+collaborate+on;Compiler+based+project;fond+of+making+viruses;ask+me+about+opengl)](https://rootjatin.github.io)
 
