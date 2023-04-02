@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
 <h3> 🧑‍💻  Major Project</h3>
-<h4> 🧑‍💻 🤖 Humanoid Robot</h4>
+<h6> 🤖 Humanoid Robot</h6>
 
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVlMmNlZDNlMmVmMTc4OGFiYjM1NzVhOGIxNzNhOWQ0ZGQ0ZWQ3MCZjdD1n/VT6V8fWKKcQIYQcM9O/giphy.gif)
 
