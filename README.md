@@ -1,7 +1,8 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
-![Alt Text](./assets/gyani1.gif)
+
+![Gyani Robot](/assets/gyani1.gif)
 <h3>🧰 Frameworks and Libraries</h3>
 
   <p>
