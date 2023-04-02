@@ -2,7 +2,12 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
+<h3> 🧑‍💻 🤖 Major Project</h3>
 
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVlMmNlZDNlMmVmMTc4OGFiYjM1NzVhOGIxNzNhOWQ0ZGQ0ZWQ3MCZjdD1n/VT6V8fWKKcQIYQcM9O/giphy.gif)
+<h4> 🧑‍💻 🤖 Humanoid Robot</h4>
+<br>
+<br>
 <h3>🧰 Frameworks and Libraries</h3>
 
   <p>
