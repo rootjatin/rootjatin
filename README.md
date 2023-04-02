@@ -2,7 +2,7 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
-![Gyani Robot](https://imgur.com/a/QXsTDCD)
+![Gyani Robot](gyani.gif)
 <h3>🧰 Frameworks and Libraries</h3>
 
   <p>
