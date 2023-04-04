@@ -4,7 +4,7 @@
 
 
 <img src="/sharma.png" alt="Banner" width="100%">
-![Alt Text](./sharma.png)
+![Alt Text](/sharma.png)
 
 <h3> 🧑‍💻  Major Project</h3>
 <h6> 🤖 Humanoid Robot</h6>
