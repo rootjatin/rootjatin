@@ -2,6 +2,10 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
+
+<img src="https://your-image-url-here.com" alt="Banner" width="100%">
+
+
 <h3> 🧑‍💻  Major Project</h3>
 <h6> 🤖 Humanoid Robot</h6>
 
