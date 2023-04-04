@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
 
-<img src="/sharma.png" alt="Banner" width="100%">
+<img src="./sharma.png" alt="Banner" width="100%">
 ![Alt Text](/sharma.png)
 
 <h3> 🧑‍💻  Major Project</h3>
