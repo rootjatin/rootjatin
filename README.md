@@ -3,7 +3,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
 
-![Alt Text](https://github.com/rootjatin/rootjatin/blob/main/sharma.png?raw=true)
+![Alt Text](https://imgur.com/a/K1Ep8ZH)
 
 <h3> 🧑‍💻  Major Project</h3>
 <h6> 🤖 Humanoid Robot</h6>
