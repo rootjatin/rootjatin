@@ -1,6 +1,6 @@
 
 <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%" >
-<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Jatin+A,Category%20B,Category%20C,Category%20D,Category%20E&values=5,3,7,2,6&width=600&height=600&scale=2&category_text_size=19" width ="30%">
+
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 
@@ -8,7 +8,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
 
-
+<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Object+Oriented,Data+Structure,Algorithm,Programming+Language,Research&values=5,3,6,2,6&width=600&height=600&scale=2&category_text_size=19" width ="30%">
 
 <h3> 🧑‍💻  Major Project</h3>
 <h6> 🤖 Humanoid Robot</h6>
