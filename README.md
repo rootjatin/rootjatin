@@ -1,5 +1,6 @@
 
 <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%" >
+<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Jatin+A,Category%20B,Category%20C,Category%20D,Category%20E&values=5,3,7,2,6&width=600&height=600&scale=2&category_text_size=19" width ="30%">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 
