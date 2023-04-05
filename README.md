@@ -10,7 +10,7 @@
 
 
 
-<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Object+Oriented,Data+Structure,Algorithm,Programming+Language,Research&values=5,3,6,2,6&width=1000&height=600&scale=2&category_text_size=27" width ="40%">
+<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Object+Oriented,Data+Structure,Algorithm,Programming+Language,Research&values=5,3,6,2,6&width=1000&height=600&scale=2&category_text_size=35" width ="40%">
 
 <h3> 🧑‍💻  Major Project</h3>
 <h6> 🤖 Humanoid Robot</h6>
