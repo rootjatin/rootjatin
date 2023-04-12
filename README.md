@@ -8,12 +8,10 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
 
-
-
 <img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Object+Oriented,Data+Structure,Algorithm,Programming+Language,Research&values=5,3,6,2,6&width=1000&height=600&scale=2&category_text_size=27" width ="68%">
 
-<h3> 🧑‍💻  Major Project</h3>
-<h6> 🤖 Humanoid Robot Gyani</h6>
+<h3> 🧑‍💻 Major Project</h3>
+<h6> 🤖 Humanoid Robot Gyani 2.0 During 2nd Year of college</h6>
 
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVlMmNlZDNlMmVmMTc4OGFiYjM1NzVhOGIxNzNhOWQ0ZGQ0ZWQ3MCZjdD1n/VT6V8fWKKcQIYQcM9O/giphy.gif)
 
