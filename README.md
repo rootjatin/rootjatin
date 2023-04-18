@@ -1,14 +1,13 @@
 
 <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%" >
 
-
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
 
-<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Object+Oriented,Data+Structure,Algorithm,Programming+Language,Research&values=5,3,6,2,6&width=1000&height=600&scale=2&category_text_size=27" width ="68%">
+<img src="https://badgeapplication.onrender.com/spider-web-graph?categories=Object+Oriented,Data+Structure,Algorithm,Programming+Language,Research&values=5,3,6,2,6&width=1000&height=600&scale=2&category_text_size=27" width ="67%">
 
 <h3> 🧑‍💻 Major Project</h3>
 <h6> 🤖 Humanoid Robot Gyani 2.0 During 2nd Year of college</h6>
