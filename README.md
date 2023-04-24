@@ -53,7 +53,7 @@ Programming Platform Profile🦯
 
   <!-- GitHub Readme Streak Stats - https://github.com/rootjatin/github-readme-streak-stats -->
   <p>
-    <a href="https://github.com/rootjatin/github-readme-streak-stats">
+    <a href="https://streak-stats.demolab.com/?user=rootjatin&theme=monokai-metallian&hide_border=true">
       <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="rootjatin's streak" src="https://streak-stats.demolab.com/?user=rootjatin&theme=monokai-metallian&hide_border=true"/>
     </a>
   </p>
