@@ -28,12 +28,11 @@
   </p>
 
 Programming Platform Profile🦯
-<p>
   
-      <a href="https://app.hackthebox.com/profile/113818"><img alt="HackTheBox" src="https://img.shields.io/badge/rootjatin-HackTheBox-blue"></a>
-      <a href="https://gitcoin.co/rootjatin"><img alt="Gitcoin" src="https://img.shields.io/badge/rootjatin-gitcoin-blue"></a>
+   <a href="https://app.hackthebox.com/profile/113818"><img alt="HackTheBox" src="https://img.shields.io/badge/rootjatin-HackTheBox-blue"></a>
+   <a href="https://gitcoin.co/rootjatin"><img alt="Gitcoin" src="https://img.shields.io/badge/rootjatin-gitcoin-blue"></a>
       
- </p>
+
 
 <h3 > ⚡ Trophies</h3>
 
