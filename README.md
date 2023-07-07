@@ -1,5 +1,6 @@
 <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%" >
 
+
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 
 
