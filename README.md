@@ -1,5 +1,5 @@
-<img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%">
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)]
+<img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%"></img>
+![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;TMC+developer;Team+Himalaya;NCRA+INDIA;)
 
 <h3>🎮 My Fun SKAO Themed Projects:</h3>
 
