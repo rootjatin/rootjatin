@@ -3,6 +3,19 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Frontend+Developer;Compiler+Designer)](https://rootjatin.github.io)
 
+<h3>🎮 My Fun SKAO Themed Projects:</h3>
+
+- **Super Mario SKAO World**  
+  <a href="https://challengepi.com/game/">
+    <img src="https://img.shields.io/badge/Play--Super_Mario_SKAO_World-6A5ACD?style=for-the-badge&logo=supermario&logoColor=white" alt="Play Super Mario SKAO World" />
+  </a>
+
+- **3D Interactive Image of Galaxy taken by SKA Telescope**  
+  <a href="https://challengepi.com/skaothree/">
+    <img src="https://img.shields.io/badge/View--3D_Galaxy_Image-20B2AA?style=for-the-badge&logo=nasa&logoColor=white" alt="View 3D Galaxy Image" />
+  </a>
+
+<br>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
