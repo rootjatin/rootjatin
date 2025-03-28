@@ -70,8 +70,8 @@ Programming Platform Profile🦯
  
  <a href="https://github.com/rootjatin"><img alt="rootjatin's Activity Graph"  src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootjatin&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff?PAT_1" height="192px" alt="rootjatin" /></a>
  
-<a href="https://github.com/rootjatin"><img alt="rootjatin's Activity Graph" src="https://github-readme-stats.vercel.app/api/?username=rootjatin&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866?PAT_1" height="192px" alt="rootjatin" /></a>
+<a href="https://github.com/rootjatin"><img alt="rootjatin's Activity Graph" src="https://github-readme-stats.vercel.app/api/?username=rootjatin&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866?PAT_1" height="192px" alt="rootjatin"/></a>
 
   
-<h5> feel free to connect and text me on linkedin</h5>
+<h5> feel free to connect and text me on linkedin </h5>
 
