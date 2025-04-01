@@ -1,19 +1,31 @@
 <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%"></img>
 ![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;TMC+developer;Team+Himalaya;NCRA+INDIA;)
 
-<h3>🎮 My Fun SKAO Themed Projects:</h3>
+<table>
+  <tr>
+    <td valign="top">
+      <h3>🎮 My Fun SKAO Themed Projects:</h3>
+      <ul>
+        <li>
+          <strong>Super Mario SKAO World</strong><br>
+          <a href="https://challengepi.com/game/">
+            <img src="https://img.shields.io/badge/Play--Super_Mario_SKAO_World-6A5ACD?style=for-the-badge&logo=supermario&logoColor=white" alt="Play Super Mario SKAO World" />
+          </a>
+        </li>
+        <li>
+          <strong>3D Interactive Image of Galaxy taken by SKA Telescope</strong><br>
+          <a href="https://challengepi.com/skaothree/">
+            <img src="https://img.shields.io/badge/View--3D_Galaxy_Image-20B2AA?style=for-the-badge&logo=nasa&logoColor=white" alt="View 3D Galaxy Image" />
+          </a>
+        </li>
+      </ul>
+    </td>
+    <td valign="top">
+      <img src="https://i.imgur.com/AitV43s.gif" alt="Screenshot" />
+    </td>
+  </tr>
+</table>
 
-- **Super Mario SKAO World**  
-  <a href="https://challengepi.com/game/">
-    <img src="https://img.shields.io/badge/Play--Super_Mario_SKAO_World-6A5ACD?style=for-the-badge&logo=supermario&logoColor=white" alt="Play Super Mario SKAO World" />
-  </a>
-
-- **3D Interactive Image of Galaxy taken by SKA Telescope**  
-  <a href="https://challengepi.com/skaothree/">
-    <img src="https://img.shields.io/badge/View--3D_Galaxy_Image-20B2AA?style=for-the-badge&logo=nasa&logoColor=white" alt="View 3D Galaxy Image" />
-  </a>
-
-<br>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin" /> </p>
 
