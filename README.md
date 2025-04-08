@@ -4,7 +4,7 @@
 <table>
   <tr>
     <td valign="top">
-      <h3>🎮 My Fun SKAO Themed Projects:</h3>
+      <h3>🎮 My Fun SKAO Themed Projects :</h3>
       <ul>
         <li>
           <strong>Super Mario SKAO World</strong><br>
