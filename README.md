@@ -69,7 +69,7 @@ Programming Platform Profile🦯
 
 - 📫 How to reach me **rootjatin@gmail.com**
 
-  <summary><h2>📊 Github Stats and Activity</h2></summary>
+  <summary><h2>📊 Stats and Activity</h2></summary>
 
   <h3>🔥 Streak Stats</h3>
   <p>
