@@ -21,7 +21,7 @@
       </ul>
     </td>
     <td valign="top">
-      <img src="https://i.imgur.com/AitV43s.gif" alt="Screenshot" />
+      <img src="/dab.gif" alt="Screenshot" />
     </td>
   </tr>
 </table>
