@@ -39,12 +39,7 @@
   <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin – Profile views">
 </p>
 
-    </td>
-
-    <!-- RIGHT COLUMN ─────────────────────────────────────────────────────────────── -->
-    <td width="50%" valign="top" align="center">
-      <img src="/dab.gif" alt="Screenshot" />
-    </td>
+    
   </tr>
 </table>
 
