@@ -5,7 +5,6 @@
   <img src="https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Control+System+developer;NCRA+INDIA;" alt="Typing SVG">
 </p>
 
-<!-- GitLab profile link (now shown as a badge) -->
 <p align="center">
   <a href="https://www.gitlab.com/jatin.ska">
     <img src="https://img.shields.io/badge/GitLab-jatin.ska-FCA121?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab – jatin.ska"/>
@@ -14,39 +13,44 @@
 
 ---
 
-## 🎮 SKAO-Themed Fun Projects
-
-<table>
+<table width="100%">
   <tr>
+    <!-- LEFT COLUMN ──────────────────────────────────────────────────────────────── -->
     <td width="50%" valign="top">
 
-<table>
-  <tr><td>
+<h3>🎮 SKAO-Themed Fun Projects</h3>
 
-| Project | &nbsp; |
-|---------|-------|
-| **Super Mario SKAO World** | <a href="https://challengepi.com/game/"><img src="https://img.shields.io/badge/Play--Super_Mario_SKAO_World-6A5ACD?style=for-the-badge&logo=supermario&logoColor=white" alt="Play Super Mario SKAO World"></a> |
-| **3D Interactive Galaxy (SKA Telescope)** | <a href="https://challengepi.com/skaothree/"><img src="https://img.shields.io/badge/View--3D_Galaxy_Image-20B2AA?style=for-the-badge&logo=nasa&logoColor=white" alt="View 3D Galaxy Image"></a> |
+<ul>
+  <li>
+    <strong>Super Mario SKAO World</strong><br>
+    <a href="https://challengepi.com/game/">
+      <img src="https://img.shields.io/badge/Play--Super_Mario_SKAO_World-6A5ACD?style=for-the-badge&logo=supermario&logoColor=white" alt="Play Super Mario SKAO World">
+    </a>
+  </li>
+  <li>
+    <strong>3D Interactive Galaxy (SKA Telescope)</strong><br>
+    <a href="https://challengepi.com/skaothree/">
+      <img src="https://img.shields.io/badge/View--3D_Galaxy_Image-20B2AA?style=for-the-badge&logo=nasa&logoColor=white" alt="View 3D Galaxy Image">
+    </a>
+  </li>
+</ul>
 
-  </td></tr>
-</table>
+<p>
+  <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin – Profile views">
+</p>
 
     </td>
+
+    <!-- RIGHT COLUMN ─────────────────────────────────────────────────────────────── -->
     <td width="50%" valign="top" align="center">
       <img src="/dab.gif" alt="Screenshot" />
     </td>
   </tr>
 </table>
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin – Profile views">
-</p>
-
 ---
 
-## 🤖 Major Project
-
-### Humanoid Robot **Gyani 2.0**  
+## 🤖 Major Project – Humanoid Robot “Gyani 2.0”
 *(B.Tech – 2<sup>nd</sup> &amp; 3<sup>rd</sup> Year)*
 
 <p align="center">
@@ -70,7 +74,7 @@
 
 ---
 
-## 🦯 Programming Platform Profile
+## 🦯 Programming-Platform Profiles
 
 <p>
   <a href="https://app.hackthebox.com/profile/113818"><img alt="HackTheBox" src="https://img.shields.io/badge/rootjatin-HackTheBox-blue"></a>
