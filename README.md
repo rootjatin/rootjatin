@@ -36,7 +36,7 @@
 </ul>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin – Profile views">
+  <img src="https://komarev.com/ghpvc/?username=jatin.ska&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin – Profile views">
 </p>
 
     
