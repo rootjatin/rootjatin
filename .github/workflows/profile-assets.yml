@@ -1,0 +1,47 @@
+name: Update Profile Assets (Snake + Streak)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+  schedule:
+    - cron: "25 0 * * *"   # daily (UTC)
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-assets
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # ---- Snake (SVG only = faster & more reliable)
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # ---- Streak card (saved locally so it always renders big)
+      - name: Download streak SVG
+        run: |
+          mkdir -p assets
+          curl -L "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&border_radius=18" \
+            -o assets/streak.svg
+
+      # ---- Commit changes back
+      - name: Commit & push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update profile assets"
+          file_pattern: "assets/streak.svg dist/*.svg"
