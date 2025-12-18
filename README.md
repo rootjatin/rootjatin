@@ -1,127 +1,169 @@
-<!-- ────────────────────────────────────  BANNER  ──────────────────────────────────── -->
-<img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=760&fidelity=grand" alt="Banner" width="100%"/>
+<!-- =========================  HERO  ========================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Jatin+Sharma;Control+System+developer;NCRA+INDIA;" alt="Typing SVG">
+  <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=1600&fidelity=grand" alt="Banner" width="100%"/>
 </p>
+
+<h1 align="center">Jatin Sharma</h1>
 
 <p align="center">
-  <a href="https://www.gitlab.com/jatin.ska">
-    <img src="https://img.shields.io/badge/GitLab-jatin.ska-FCA121?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab – jatin.ska"/>
-  </a>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=18&pause=900&center=true&vCenter=true&width=750&lines=Control+Systems+Developer+%40+NCRA+(India);SKA+Radio+Telescope+%7C+Controls+%7C+Robotics;Space+Enthusiast+%F0%9F%8C%8C+%7C+Competitive+Shooter+%F0%9F%8E%AF;OpenGL+%7C+Embedded+%7C+Automation+%7C+Python+%7C+C%2B%2B" />
 </p>
-
----
-
-<table width="100%">
-  <tr>
-    <!-- LEFT COLUMN ──────────────────────────────────────────────────────────────── -->
-    <td width="50%" valign="top">
-
-<h3>🎮 SKAO-Themed Fun Projects</h3>
-
-<ul>
-  <li>
-    <strong>Super Mario SKAO World</strong><br>
-    <a href="https://challengepi.com/game/">
-      <img src="https://img.shields.io/badge/Play--Super_Mario_SKAO_World-6A5ACD?style=for-the-badge&logo=supermario&logoColor=white" alt="Play Super Mario SKAO World">
-    </a>
-  </li>
-  <li>
-    <strong>3D Interactive Galaxy (SKA Telescope)</strong><br>
-    <a href="https://challengepi.com/skaothree/">
-      <img src="https://img.shields.io/badge/View--3D_Galaxy_Image-20B2AA?style=for-the-badge&logo=nasa&logoColor=white" alt="View 3D Galaxy Image">
-    </a>
-  </li>
-</ul>
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=jatinsharma&label=Profile%20views&color=0e75b6&style=flat" alt="rootjatin – Profile views">
-</p>
-
-    
-  </tr>
-</table>
-
----
-
-## 🤖 Major Project – Humanoid Robot “Gyani 2.0”
-*(B.Tech – 2<sup>nd</sup> &amp; 3<sup>rd</sup> Year)*
-
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjVlMmNlZDNlMmVmMTc4OGFiYjM1NzVhOGIxNzNhOWQ0ZGQ0ZWQ3MCZjdD1n/VT6V8fWKKcQIYQcM9O/giphy.gif" alt="Gyani 2.0">
-</p>
-
----
-
-## 🧰 Frameworks &amp; Libraries
-
-<p align="center">
-  <a href="#"><img alt="Arduino" src="https://img.shields.io/badge/-Arduino-00979D?logo=Arduino&logoColor=white"></a>
-  <a href="#"><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-7952B3.svg?logo=bootstrap&logoColor=white"></a>
-  <a href="#"><img alt="Flask" src="https://img.shields.io/badge/Flask-000000.svg?logo=flask&logoColor=white"></a>
-  <a href="#"><img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2671E5.svg?logo=github%20actions&logoColor=white"></a>
-  <a href="#"><img alt="Material Design" src="https://img.shields.io/badge/Material%20Design-0081CB.svg?logo=material-design&logoColor=white"></a>
-  <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/Numpy-013243.svg?logo=numpy&logoColor=white"></a>
-  <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white"></a>
-  <a href="#"><img alt="Pytest" src="https://img.shields.io/badge/Pytest-0A9EDC.svg?logo=pytest&logoColor=white"></a>
-</p>
-
----
-
-## 🦯 Programming-Platform Profiles
-
-<p>
-  <a href="https://app.hackthebox.com/profile/113818"><img alt="HackTheBox" src="https://img.shields.io/badge/rootjatin-HackTheBox-blue"></a>
-  &nbsp;&nbsp;
-  <a href="https://gitcoin.co/rootjatin"><img alt="Gitcoin" src="https://img.shields.io/badge/rootjatin-gitcoin-blue"></a>
-</p>
-
----
-
-## ⚡ Trophies
-
-<p align="left">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=rootjatin&theme=monokai" alt="rootjatin – GitHub Profile Trophy">
-  </a>
-</p>
-
----
 
 <p align="center">
   <a href="https://rootjatin.github.io">
-    <img src="https://readme-typing-svg.demolab.com/?lines=currently+working+as+cs+developer+at;SKAO+Radio+Telescope;looking+to+collaborate+on;Compiler+based+project;fond+of+making+viruses;ask+me+about+opengl" alt="Typing SVG 2">
+    <img src="https://img.shields.io/badge/Website-rootjatin.github.io-00E5FF?style=for-the-badge&logo=googlechrome&logoColor=000" />
+  </a>
+  <a href="https://www.gitlab.com/jatin.ska">
+    <img src="https://img.shields.io/badge/GitLab-jatin.ska-FCA121?style=for-the-badge&logo=gitlab&logoColor=000" />
+  </a>
+  <a href="mailto:rootjatin@gmail.com">
+    <img src="https://img.shields.io/badge/Email-rootjatin%40gmail.com-FF1744?style=for-the-badge&logo=gmail&logoColor=000" />
+  </a>
+  <a href="https://app.hackthebox.com/profile/113818">
+    <img src="https://img.shields.io/badge/HackTheBox-rootjatin-00FF87?style=for-the-badge&logo=hackthebox&logoColor=000" />
+  </a>
+  <a href="https://gitcoin.co/rootjatin">
+    <img src="https://img.shields.io/badge/Gitcoin-rootjatin-8A2BE2?style=for-the-badge&logo=gitcoin&logoColor=fff" />
   </a>
 </p>
 
-- 👨‍💻 All of my projects are available at **[rootjatin.github.io](https://rootjatin.github.io)**  
-- 📫 How to reach me: **rootjatin@gmail.com**
-
----
-
-## 📊 Stats and Activity
-
-### 🔥 Streak Stats
 <p align="center">
-  <a href="https://streak-stats.demolab.com/?user=rootjatin&theme=monokai-metallian&hide_border=true">
-    <img title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="rootjatin's streak" src="https://streak-stats.demolab.com?user=rootjatin&theme=calm&border_radius=50">
+  <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=00E5FF&style=for-the-badge" alt="profile views">
+</p>
+
+<hr/>
+
+<!-- =========================  QUICK ID  ========================= -->
+
+### 🧠 About Me (in one screen)
+- 🛰️ Control Systems Developer @ **NCRA (India)** — work around **SKA Radio Telescope** ecosystem  
+- 🤖 Building robotics + automation systems (hardware + software)  
+- 🌌 **Space enthusiast** (telescopes, orbits, astrophysics, sci-tech)  
+- 🎯 **Competitive shooter** — **10m Air Rifle** & **50m 3-Position (3P)**  
+- 🧩 Interests: **OpenGL**, embedded systems, Python tooling, CI/CD, testing, systems & security (reverse engineering / analysis)
+
+<hr/>
+
+<!-- =========================  FEATURED: YOUR GAME WEBSITE  ========================= -->
+
+<h2 align="center">🎮 My Game / Experiments Playground</h2>
+
+<p align="center">
+  <a href="https://rootjatin.github.io">
+    <img src="https://img.shields.io/badge/Launch-rootjatin.github.io-00E5FF?style=for-the-badge&logo=unity&logoColor=000" />
   </a>
 </p>
 
-### 💻 GitHub Profile Stats
+<p align="center">
+  <sub>All my interactive demos, experiments, and projects live here.</sub>
+</p>
+
+<hr/>
+
+<!-- =========================  FEATURED PROJECT  ========================= -->
+
+<h2 align="center">🤖 Major Project — Humanoid Robot: <i>Gyani 2.0</i></h2>
+
+<p align="center">
+  <img src="robot.png" alt="Gyani 2.0" width="85%"/>
+</p>
+
+<p align="center">
+  <b>Tech stack vibes:</b> control loops • embedded firmware • sensors • actuation • vision-ready pipeline • telemetry • reliability
+</p>
+
+<hr/>
+
+<!-- =========================  SPACE + SHOOTER  ========================= -->
+
+<h2 align="center">🌌 Space Mode / 🎯 Range Mode</h2>
 
 <table>
   <tr>
-    <td valign="top" align="center">
-      <a href="https://github.com/rootjatin">
-        <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootjatin&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866&hide=Jupyter%20Notebook,Roff?PAT_1" height="192px">
-      </a>
+    <td width="50%" align="center">
+      <img src="space.png" alt="Space Enthusiast" width="92%"/>
+      <br/><br/>
+      <b>Space enthusiast</b>
+      <br/>
+      <sub>I love building + learning around astronomy, space-tech, and sci-engineering.</sub>
     </td>
-    <td valign="top" align="center">
-      <a href="https://github.com/rootjatin">
-        <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=rootjatin&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866?PAT_1" height="192px">
-      </a>
+    <td width="50%" align="center">
+      <img src="shooter.png" alt="Shooter" width="92%"/>
+      <br/><br/>
+      <b>Competitive shooter</b>
+      <br/>
+      <sub>10m Air Rifle • 50m 3-Position (3P)</sub>
     </td>
   </tr>
 </table>
+
+<hr/>
+
+<!-- =========================  TOOLBOX  ========================= -->
+
+<h2 align="center">🧰 Toolbox</h2>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,arduino,linux,git,githubactions,flask,bootstrap,opencv&perline=10" />
+</p>
+
+<p align="center">
+  <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243.svg?logo=numpy&logoColor=white"></a>
+  <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white"></a>
+  <a href="#"><img alt="Pytest" src="https://img.shields.io/badge/Pytest-0A9EDC.svg?logo=pytest&logoColor=white"></a>
+  <a href="#"><img alt="Material Design" src="https://img.shields.io/badge/Material%20Design-0081CB.svg?logo=material-design&logoColor=white"></a>
+</p>
+
+<hr/>
+
+<!-- =========================  STATS (STREAK HIGHLIGHTED)  ========================= -->
+
+<h2 align="center">🔥 Streak (Highlighted)</h2>
+
+<p align="center">
+  <!-- This file is auto-updated by a GitHub Action you’ll add below -->
+  <img src="assets/streak.svg" alt="GitHub Streak" width="85%"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootjatin&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rootjatin&theme=tokyo-night&hide_border=true" width="95%"/>
+</p>
+
+<hr/>
+
+<!-- =========================  COOL STUFF  ========================= -->
+
+<h2 align="center">🐍 Contribution Snake</h2>
+
+<p align="center">
+  <!-- Generated by workflow below -->
+  <img src="dist/github-contribution-grid-snake-dark.svg" alt="snake animation" width="95%"/>
+</p>
+
+<hr/>
+
+<!-- =========================  TROPHIES  ========================= -->
+
+<h2 align="center">🏆 Trophies</h2>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=rootjatin&theme=onestar&no-frame=true&row=1&column=7" />
+</p>
+
+<hr/>
+
+<!-- =========================  CONTACT  ========================= -->
+
+<h2 align="center">📫 Contact</h2>
+
+<p align="center">
+  <a href="mailto:rootjatin@gmail.com"><b>rootjatin@gmail.com</b></a>
+  <br/>
+  <a href="https://rootjatin.github.io"><b>rootjatin.github.io</b></a>
+</p>
