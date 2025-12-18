@@ -51,12 +51,12 @@ jobs:
           curl -L "https://streak-stats.demolab.com?user=rootjatin&theme=tokyonight&hide_border=true&border_radius=18" \
             -o assets/streak.svg
 
-      # Commit back as YOU
-      - name: Commit & push if changed (as rootjatin)
+      # Commit back as GitHub Actions bot (NOT you)
+      - name: Commit & push if changed (as github-actions[bot])
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update profile assets"
           file_pattern: "assets/*.svg assets/*.png dist/*.svg"
-          commit_user_name: "rootjatin"
-          commit_user_email: "jatin100198@gmail.com"
-          commit_author: "rootjatin <jatin100198@gmail.com>"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
