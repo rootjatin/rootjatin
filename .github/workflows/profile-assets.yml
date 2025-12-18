@@ -1,9 +1,7 @@
-name: Update Profile Assets (Snake + Streak)
+name: Update Profile Assets (Streak + Snake + HEIC->PNG)
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ "main" ]
   schedule:
     - cron: "25 0 * * *"   # daily (UTC)
 
@@ -17,31 +15,48 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      # ---- Snake (SVG only = faster & more reliable)
+      # Convert space.HEIC -> assets/space.png (only if HEIC exists)
+      - name: Convert HEIC -> PNG (if present)
+        run: |
+          set -e
+          mkdir -p assets
+          if [ -f "space.HEIC" ]; then
+            sudo apt-get update
+            sudo apt-get install -y libheif-examples
+            heif-convert "space.HEIC" "assets/space.png"
+          else
+            echo "space.HEIC not found. Skipping."
+          fi
+
+      # Generate snake (SVG-only = reliable)
       - name: Generate contribution snake
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: rootjatin
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # ---- Streak card (saved locally so it always renders big)
+      # Download streak card (local)
       - name: Download streak SVG
         run: |
           mkdir -p assets
-          curl -L "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&border_radius=18" \
+          curl -L "https://streak-stats.demolab.com?user=rootjatin&theme=tokyonight&hide_border=true&border_radius=18" \
             -o assets/streak.svg
 
-      # ---- Commit changes back
-      - name: Commit & push if changed
+      # Commit back as YOU
+      - name: Commit & push if changed (as rootjatin)
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update profile assets"
-          file_pattern: "assets/streak.svg dist/*.svg"
+          file_pattern: "assets/*.svg assets/*.png dist/*.svg"
+          commit_user_name: "rootjatin"
+          commit_user_email: "jatin100198@gmail.com"
+          commit_author: "rootjatin <jatin100198@gmail.com>"
