@@ -1,0 +1,31 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "45 0 * * *"  # daily
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate snake svgs
+        uses: Platane/snk@v3
+        with:
+          github_user_name: rootjatin
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Commit changes (if any)
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "dist/*.svg"
+          message: "chore: update contribution snake"
+          default_author: github_actions
