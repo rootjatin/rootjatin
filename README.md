@@ -129,24 +129,24 @@ If you liked it: ⭐ star a repo you enjoy, or send feedback — I actually read
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="telescope.jpg" alt="Telescope" width="260"/>
+      <img src="telescope.jpg" alt="Telescope" width="200"/>
       <br/><br/>
       <b>Space Enthusiast 🌌</b>
       <br/>
       <sub>Always exploring astronomy + space-tech.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/space.png" alt="Space" width="260"/>
+      <img src="space.png" alt="Space" width="130"/>
       <br/><br/>
       <b>Space Aesthetic</b>
       <br/>
-      <sub>My First Telscopic Image </sub>
+      <sub>My First Telscopic Image<br> Celestron 130EQ with Iphone 14  </sub>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="shooter.jpeg" alt="Shooter" width="180"/>
+  <img src="shooter.jpeg" alt="Shooter" width="250"/>
   <br/>
   <b>Competitive Shooter 🎯</b>
   <br/>
