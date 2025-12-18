@@ -1,4 +1,6 @@
-<!-- =========================  HERO  ========================= -->
+<!-- ================================
+     ROOTJATIN • TECH/SPACE THEME
+     ================================ -->
 
 <p align="center">
   <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=1600&fidelity=grand" alt="Banner" width="100%"/>
@@ -7,7 +9,7 @@
 <h1 align="center">Jatin Sharma</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=700&size=18&pause=900&center=true&vCenter=true&width=750&lines=Control+Systems+Developer+%40+NCRA+(India);SKA+Radio+Telescope+%7C+Controls+%7C+Robotics;Space+Enthusiast+%F0%9F%8C%8C+%7C+Competitive+Shooter+%F0%9F%8E%AF;OpenGL+%7C+Embedded+%7C+Automation+%7C+Python+%7C+C%2B%2B" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=800&size=18&pause=900&center=true&vCenter=true&width=900&lines=Control+Systems+Developer+%40+NCRA+(India);Robotics+%7C+Automation+%7C+Embedded+%7C+Controls;Space+Enthusiast+%F0%9F%8C%8C+%7C+Competitive+Shooter+%F0%9F%8E%AF;OpenGL+%7C+Python+%7C+C%2B%2B+%7C+Linux+%7C+CI%2FCD" />
 </p>
 
 <p align="center">
@@ -32,22 +34,37 @@
   <img src="https://komarev.com/ghpvc/?username=rootjatin&label=Profile%20views&color=00E5FF&style=for-the-badge" alt="profile views">
 </p>
 
-<hr/>
+---
 
-<!-- =========================  QUICK ID  ========================= -->
+## ⚡ Status Panel (Streak Highlight)
 
-### 🧠 About Me (in one screen)
-- 🛰️ Control Systems Developer @ **NCRA (India)** — work around **SKA Radio Telescope** ecosystem  
-- 🤖 Building robotics + automation systems (hardware + software)  
-- 🌌 **Space enthusiast** (telescopes, orbits, astrophysics, sci-tech)  
-- 🎯 **Competitive shooter** — **10m Air Rifle** & **50m 3-Position (3P)**  
-- 🧩 Interests: **OpenGL**, embedded systems, Python tooling, CI/CD, testing, systems & security (reverse engineering / analysis)
+<p align="center">
+  <!-- Generated + committed by workflow -->
+  <img src="assets/streak.svg" alt="GitHub Streak" width="88%"/>
+</p>
 
-<hr/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootjatin&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
+</p>
 
-<!-- =========================  FEATURED: YOUR GAME WEBSITE  ========================= -->
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rootjatin&theme=tokyo-night&hide_border=true" width="96%"/>
+</p>
 
-<h2 align="center">🎮 My Game / Experiments Playground</h2>
+---
+
+## 👨‍💻 About Me (Fast Scan)
+
+- 🛰️ **Control Systems Developer @ NCRA (India)**  
+- 🤖 Into **robotics + automation** (hardware + software, sensing → control → actuation)
+- 🌌 **Space enthusiast** — telescopes, astrophysics, space-tech
+- 🎯 **Competitive shooter** — **10m Air Rifle** & **50m 3-Position (3P)**
+- 🧠 Interests: **OpenGL**, embedded, tooling, testing, CI/CD, reliability
+
+---
+
+## 🎮 My Game / Experiments Playground
 
 <p align="center">
   <a href="https://rootjatin.github.io">
@@ -56,111 +73,91 @@
 </p>
 
 <p align="center">
-  <sub>All my interactive demos, experiments, and projects live here.</sub>
+  <sub>Interactive demos, experiments, and projects live here.</sub>
 </p>
 
-<hr/>
+---
 
-<!-- =========================  FEATURED PROJECT  ========================= -->
-
-<h2 align="center">🤖 Major Project — Humanoid Robot: <i>Gyani 2.0</i></h2>
+## 🤖 Flagship Project — Humanoid Robot “Gyani 2.0”
 
 <p align="center">
-  <img src="robot.png" alt="Gyani 2.0" width="85%"/>
+  <img src="gyani.gif" alt="Gyani 2.0" width="88%"/>
 </p>
 
 <p align="center">
-  <b>Tech stack vibes:</b> control loops • embedded firmware • sensors • actuation • vision-ready pipeline • telemetry • reliability
+  <b>Tech vibe:</b> controls • embedded firmware • sensors • actuation • telemetry • systems integration
 </p>
 
-<hr/>
+---
 
-<!-- =========================  SPACE + SHOOTER  ========================= -->
-
-<h2 align="center">🌌 Space Mode / 🎯 Range Mode</h2>
+## 🌌 Space Mode / 🎯 Range Mode
 
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="space.png" alt="Space Enthusiast" width="92%"/>
+      <img src="telescope.jpg" alt="Telescope" width="92%"/>
       <br/><br/>
-      <b>Space enthusiast</b>
+      <b>Space Enthusiast 🌌</b>
       <br/>
-      <sub>I love building + learning around astronomy, space-tech, and sci-engineering.</sub>
+      <sub>Always exploring astronomy + space-tech.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="shooter.png" alt="Shooter" width="92%"/>
+      <!-- If GitHub can't render HEIC, workflow converts it to assets/space.png -->
+      <img src="assets/space.png" alt="Space" width="92%"/>
       <br/><br/>
-      <b>Competitive shooter</b>
+      <b>Space Aesthetic</b>
       <br/>
-      <sub>10m Air Rifle • 50m 3-Position (3P)</sub>
+      <sub>Generated from space.HEIC → PNG automatically.</sub>
     </td>
   </tr>
 </table>
 
-<hr/>
+<p align="center">
+  <img src="shooter.jpeg" alt="Shooter" width="88%"/>
+  <br/>
+  <b>Competitive Shooter 🎯</b>
+  <br/>
+  <sub>10m Air Rifle • 50m 3P</sub>
+</p>
 
-<!-- =========================  TOOLBOX  ========================= -->
+---
 
-<h2 align="center">🧰 Toolbox</h2>
+## 🧰 Toolbox (Core Tech)
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,cpp,c,arduino,linux,git,githubactions,flask,bootstrap,opencv&perline=10" />
 </p>
 
 <p align="center">
-  <a href="#"><img alt="NumPy" src="https://img.shields.io/badge/NumPy-013243.svg?logo=numpy&logoColor=white"></a>
-  <a href="#"><img alt="Pandas" src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white"></a>
-  <a href="#"><img alt="Pytest" src="https://img.shields.io/badge/Pytest-0A9EDC.svg?logo=pytest&logoColor=white"></a>
-  <a href="#"><img alt="Material Design" src="https://img.shields.io/badge/Material%20Design-0081CB.svg?logo=material-design&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/NumPy-013243.svg?logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458.svg?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC.svg?logo=pytest&logoColor=white" />
+  <img src="https://img.shields.io/badge/Material%20Design-0081CB.svg?logo=material-design&logoColor=white" />
 </p>
 
-<hr/>
+---
 
-<!-- =========================  STATS (STREAK HIGHLIGHTED)  ========================= -->
-
-<h2 align="center">🔥 Streak (Highlighted)</h2>
+## 🐍 Contribution Snake
 
 <p align="center">
-  <!-- This file is auto-updated by a GitHub Action you’ll add below -->
-  <img src="assets/streak.svg" alt="GitHub Streak" width="85%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+    <img alt="github-snake" src="dist/github-snake.svg" width="96%" />
+  </picture>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rootjatin&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rootjatin&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
-</p>
+---
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=rootjatin&theme=tokyo-night&hide_border=true" width="95%"/>
-</p>
-
-<hr/>
-
-<!-- =========================  COOL STUFF  ========================= -->
-
-<h2 align="center">🐍 Contribution Snake</h2>
-
-<p align="center">
-  <!-- Generated by workflow below -->
-  <img src="dist/github-contribution-grid-snake-dark.svg" alt="snake animation" width="95%"/>
-</p>
-
-<hr/>
-
-<!-- =========================  TROPHIES  ========================= -->
-
-<h2 align="center">🏆 Trophies</h2>
+## 🏆 Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=rootjatin&theme=onestar&no-frame=true&row=1&column=7" />
 </p>
 
-<hr/>
+---
 
-<!-- =========================  CONTACT  ========================= -->
-
-<h2 align="center">📫 Contact</h2>
+## 📫 Contact
 
 <p align="center">
   <a href="mailto:rootjatin@gmail.com"><b>rootjatin@gmail.com</b></a>
