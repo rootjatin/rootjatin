@@ -7,31 +7,19 @@
   </text>
 
   <text x="24" y="74" fill="#8b949e" font-size="14"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
-    Current
-  </text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Current</text>
   <text x="24" y="98" fill="#58a6ff" font-size="22" font-weight="700"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
-    370 day(s)
-  </text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">503 day(s)</text>
 
   <text x="260" y="74" fill="#8b949e" font-size="14"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
-    Longest
-  </text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Longest</text>
   <text x="260" y="98" fill="#58a6ff" font-size="22" font-weight="700"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
-    370 day(s)
-  </text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">503 day(s)</text>
 
   <text x="496" y="74" fill="#8b949e" font-size="14"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
-    Total (range)
-  </text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Total (last 365d)</text>
   <text x="696" y="98" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="end"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
-    1212
-  </text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">1206</text>
 
   <text x="24" y="126" fill="#8b949e" font-size="12"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
