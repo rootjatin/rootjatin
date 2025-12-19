@@ -40,8 +40,10 @@ jobs:
           python scripts/generate_streak_svg.py \
             --user rootjatin \
             --tz Asia/Kolkata \
-            --days 370 \
+            --max-years 8 \
+            --total-days 365 \
             --out assets/streak.svg
+
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
