@@ -1,34 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170" role="img" aria-label="GitHub streak for rootjatin">
-  <rect x="0.5" y="0.5" width="719" height="169" rx="18" ry="18" fill="#0d1117" stroke="#30363d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="220" viewBox="0 0 720 220" role="img" aria-label="GitHub streak for rootjatin">
+  <rect x="0.5" y="0.5" width="719" height="219" rx="18" ry="18" fill="#0d1117" stroke="#30363d"/>
 
-  <text x="24" y="36" fill="#c9d1d9" font-size="20"
+  <text x="24" y="34" fill="#c9d1d9" font-size="20"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
     rootjatin • Streak (computed from GitHub API)
   </text>
 
-  <!-- Current -->
-  <text x="24" y="68" fill="#8b949e" font-size="13"
+  <!-- Row 1: Current + Total -->
+  <text x="24" y="62" fill="#8b949e" font-size="13"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Current streak</text>
-  <text x="24" y="94" fill="#58a6ff" font-size="22" font-weight="700"
+  <text x="24" y="88" fill="#58a6ff" font-size="22" font-weight="700"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">503 day(s)</text>
-  <text x="24" y="116" fill="#8b949e" font-size="12"
+  <text x="24" y="110" fill="#8b949e" font-size="12"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">2024-08-04 → 2025-12-19</text>
 
-  <!-- Longest -->
-  <text x="260" y="68" fill="#8b949e" font-size="13"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Longest streak</text>
-  <text x="260" y="94" fill="#58a6ff" font-size="22" font-weight="700"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">503 day(s)</text>
-  <text x="260" y="116" fill="#8b949e" font-size="12"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">2024-08-04 → 2025-12-19</text>
-
-  <!-- Total -->
-  <text x="496" y="68" fill="#8b949e" font-size="13"
+  <text x="390" y="62" fill="#8b949e" font-size="13"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Total (last 365d)</text>
-  <text x="696" y="94" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="end"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">1207</text>
+  <text x="696" y="88" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="end"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">1208</text>
 
-  <text x="24" y="152" fill="#8b949e" font-size="12"
+  <!-- Row 2: Longest #1 + Longest #2 -->
+  <text x="24" y="140" fill="#8b949e" font-size="13"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Longest streak</text>
+  <text x="24" y="166" fill="#58a6ff" font-size="22" font-weight="700"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">503 day(s)</text>
+  <text x="24" y="188" fill="#8b949e" font-size="12"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">2024-08-04 → 2025-12-19</text>
+
+  <text x="390" y="140" fill="#8b949e" font-size="13"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">2nd longest streak</text>
+  <text x="390" y="166" fill="#58a6ff" font-size="22" font-weight="700"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">241 day(s)</text>
+  <text x="390" y="188" fill="#8b949e" font-size="12"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">2022-09-10 → 2023-05-08</text>
+
+  <text x="24" y="212" fill="#8b949e" font-size="12"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
     As of 2025-12-19 (Asia/Kolkata)
   </text>
