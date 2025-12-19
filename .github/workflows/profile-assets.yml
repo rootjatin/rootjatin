@@ -1,9 +1,9 @@
-name: Update Profile Assets (Streak + Snake + HEIC->PNG)
+name: Update Profile Assets (Snake + Streak)
 
 on:
   workflow_dispatch:
   schedule:
-    - cron: "25 0 * * *"   # daily (UTC)
+    - cron: "25 0 * * *" # daily (UTC)
 
 permissions:
   contents: write
@@ -19,24 +19,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      # Convert space.HEIC -> assets/space.png (only if HEIC exists)
-      - name: Convert HEIC -> PNG (if present)
-        run: |
-          set -e
-          mkdir -p assets
-          if [ -f "space.HEIC" ]; then
-            sudo apt-get update
-            sudo apt-get install -y libheif-examples
-            heif-convert "space.HEIC" "assets/space.png"
-          else
-            echo "space.HEIC not found. Skipping."
-          fi
-
-      # Generate snake (SVG-only = reliable)
-      - name: Generate contribution snake
+      - name: Generate contribution snake (SVG-only)
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: rootjatin
@@ -44,19 +28,26 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # Download streak card (local)
-      - name: Download streak SVG
-        run: |
-          mkdir -p assets
-          curl -L "https://streak-stats.demolab.com?user=rootjatin&theme=tokyonight&hide_border=true&border_radius=18" \
-            -o assets/streak.svg
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
 
-      # Commit back as GitHub Actions bot (NOT you)
-      - name: Commit & push if changed (as github-actions[bot])
+      - name: Generate streak SVG (GitHub API via GraphQL)
+        env:
+          GH_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_streak_svg.py \
+            --user rootjatin \
+            --tz Asia/Kolkata \
+            --days 370 \
+            --out assets/streak.svg
+
+      - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore: update profile assets"
-          file_pattern: "assets/*.svg assets/*.png dist/*.svg"
+          file_pattern: "assets/*.svg dist/*.svg"
           commit_user_name: "github-actions[bot]"
           commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
           commit_author: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
