@@ -42,11 +42,6 @@ def gql(token: str, login: str, from_iso: str, to_iso: str) -> dict:
         return json.loads(r.read().decode("utf-8"))
 
 def fetch_days(token: str, user: str, from_day: date, to_day_exclusive: date) -> tuple[date, dict[date, int]]:
-    """
-    Fetch contribution days in [from_day, to_day_exclusive).
-    NOTE: GitHub GraphQL contributionsCollection(from,to) must be <= 1 year range,
-    so callers should chunk requests.
-    """
     from_iso = f"{from_day.isoformat()}T00:00:00Z"
     to_iso = f"{to_day_exclusive.isoformat()}T00:00:00Z"
     data = gql(token, user, from_iso, to_iso)
@@ -65,37 +60,64 @@ def fetch_days(token: str, user: str, from_day: date, to_day_exclusive: date) ->
 
     return created_at, day_counts
 
-def compute_current_streak(day_counts: dict[date, int], today_local: date) -> tuple[int, date | None]:
+def compute_current_streak_details(day_counts: dict[date, int], today_local: date) -> tuple[int, date | None, date | None]:
     """
-    Typical streak behavior:
-    - If today has contributions -> streak ends today
-    - else if yesterday has contributions -> streak ends yesterday
-    - else -> current streak is 0
+    Current streak definition:
+    - If today has contributions -> ends today
+    - else if yesterday has contributions -> ends yesterday
+    - else -> 0
+    Returns: (length, start_date, end_date)
     """
     if day_counts.get(today_local, 0) > 0:
         end = today_local
     elif day_counts.get(today_local - timedelta(days=1), 0) > 0:
         end = today_local - timedelta(days=1)
     else:
-        return 0, None
+        return 0, None, None
 
-    cur = 0
+    length = 0
     d = end
     while day_counts.get(d, 0) > 0:
-        cur += 1
+        length += 1
         d -= timedelta(days=1)
-    return cur, end
 
-def compute_longest_streak(day_counts: dict[date, int]) -> int:
+    start = end - timedelta(days=length - 1)
+    return length, start, end
+
+def compute_longest_streak_details(day_counts: dict[date, int]) -> tuple[int, date | None, date | None]:
+    """
+    Returns: (longest_length, start_date, end_date)
+    If there are multiple streaks with same max length, keeps the first encountered.
+    """
     longest = 0
+    best_start: date | None = None
+    best_end: date | None = None
+
     run = 0
+    run_start: date | None = None
+    prev: date | None = None
+
     for d in sorted(day_counts.keys()):
+        if prev is not None and d != prev + timedelta(days=1):
+            # gap: reset run
+            run = 0
+            run_start = None
+
         if day_counts[d] > 0:
+            if run == 0:
+                run_start = d
             run += 1
-            longest = max(longest, run)
+            if run > longest:
+                longest = run
+                best_start = run_start
+                best_end = d
         else:
             run = 0
-    return longest
+            run_start = None
+
+        prev = d
+
+    return longest, best_start, best_end
 
 def sum_last_n_days(day_counts: dict[date, int], end_day: date, n: int) -> int:
     start = end_day - timedelta(days=n - 1)
@@ -106,31 +128,56 @@ def sum_last_n_days(day_counts: dict[date, int], end_day: date, n: int) -> int:
         d += timedelta(days=1)
     return total
 
-def render_svg(user: str, total_last_n: int, total_days: int, current: int, longest: int, as_of: date, tz: str) -> str:
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="720" height="140" viewBox="0 0 720 140" role="img" aria-label="GitHub streak for {user}">
-  <rect x="0.5" y="0.5" width="719" height="139" rx="18" ry="18" fill="#0d1117" stroke="#30363d"/>
+def fmt_range(start: date | None, end: date | None) -> str:
+    if start is None or end is None:
+        return "—"
+    return f"{start.isoformat()} → {end.isoformat()}"
 
-  <text x="24" y="38" fill="#c9d1d9" font-size="20"
+def render_svg(
+    user: str,
+    total_last_n: int,
+    total_days: int,
+    cur_len: int,
+    cur_start: date | None,
+    cur_end: date | None,
+    long_len: int,
+    long_start: date | None,
+    long_end: date | None,
+    as_of: date,
+    tz: str,
+) -> str:
+    # Slightly taller to fit date ranges cleanly
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="720" height="170" viewBox="0 0 720 170" role="img" aria-label="GitHub streak for {user}">
+  <rect x="0.5" y="0.5" width="719" height="169" rx="18" ry="18" fill="#0d1117" stroke="#30363d"/>
+
+  <text x="24" y="36" fill="#c9d1d9" font-size="20"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
     {user} • Streak (computed from GitHub API)
   </text>
 
-  <text x="24" y="74" fill="#8b949e" font-size="14"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Current</text>
-  <text x="24" y="98" fill="#58a6ff" font-size="22" font-weight="700"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{current} day(s)</text>
+  <!-- Current -->
+  <text x="24" y="68" fill="#8b949e" font-size="13"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Current streak</text>
+  <text x="24" y="94" fill="#58a6ff" font-size="22" font-weight="700"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{cur_len} day(s)</text>
+  <text x="24" y="116" fill="#8b949e" font-size="12"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{fmt_range(cur_start, cur_end)}</text>
 
-  <text x="260" y="74" fill="#8b949e" font-size="14"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Longest</text>
-  <text x="260" y="98" fill="#58a6ff" font-size="22" font-weight="700"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{longest} day(s)</text>
+  <!-- Longest -->
+  <text x="260" y="68" fill="#8b949e" font-size="13"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Longest streak</text>
+  <text x="260" y="94" fill="#58a6ff" font-size="22" font-weight="700"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{long_len} day(s)</text>
+  <text x="260" y="116" fill="#8b949e" font-size="12"
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{fmt_range(long_start, long_end)}</text>
 
-  <text x="496" y="74" fill="#8b949e" font-size="14"
+  <!-- Total -->
+  <text x="496" y="68" fill="#8b949e" font-size="13"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Total (last {total_days}d)</text>
-  <text x="696" y="98" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="end"
+  <text x="696" y="94" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="end"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{total_last_n}</text>
 
-  <text x="24" y="126" fill="#8b949e" font-size="12"
+  <text x="24" y="152" fill="#8b949e" font-size="12"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">
     As of {as_of.isoformat()} ({tz})
   </text>
@@ -153,18 +200,16 @@ def main():
     tzinfo = ZoneInfo(args.tz)
     today_local = datetime.now(tzinfo).date()
 
-    # First fetch a small recent window to get createdAt quickly and have current days
+    # Fetch a recent window first (also yields createdAt)
     recent_from = today_local - timedelta(days=364)
     recent_to_excl = today_local + timedelta(days=1)
     created_at, day_counts = fetch_days(token, args.user, recent_from, recent_to_excl)
 
-    # Decide how far back we want to fetch
+    # Determine history fetch bounds
     wanted_start = today_local - timedelta(days=args.max_years * 366)
     start_day = max(created_at, wanted_start)
-    end_excl = today_local + timedelta(days=1)
 
-    # Fetch additional history in 1-year chunks (inclusive-ish)
-    # Each chunk: [chunk_start, chunk_end_exclusive), where span <= 365 days
+    # Backfill history in <= 1-year chunks up to recent_from
     cur_start = start_day
     while cur_start < recent_from:
         cur_end = min(cur_start + timedelta(days=365), recent_from)
@@ -172,17 +217,33 @@ def main():
         day_counts.update(chunk)
         cur_start = cur_end
 
-    # Now compute streaks
-    current, streak_end = compute_current_streak(day_counts, today_local)
-    # If no current streak, still show "as of today"
-    as_of = streak_end if streak_end else today_local
+    if not day_counts:
+        raise SystemExit("No contribution data returned. Check token permissions / username.")
 
-    longest = compute_longest_streak(day_counts)
+    # Current streak + range
+    cur_len, cur_start_d, cur_end_d = compute_current_streak_details(day_counts, today_local)
+    # "As of" should align with streak end if streak exists; otherwise today
+    as_of = cur_end_d if cur_end_d else today_local
 
-    # Total contributions over last N days ending at "as_of"
+    # Longest streak + range (over fetched history)
+    long_len, long_start_d, long_end_d = compute_longest_streak_details(day_counts)
+
+    # Total contributions over last N days ending at as_of
     total_last_n = sum_last_n_days(day_counts, as_of, args.total_days)
 
-    svg = render_svg(args.user, total_last_n, args.total_days, current, longest, as_of, args.tz)
+    svg = render_svg(
+        user=args.user,
+        total_last_n=total_last_n,
+        total_days=args.total_days,
+        cur_len=cur_len,
+        cur_start=cur_start_d,
+        cur_end=cur_end_d,
+        long_len=long_len,
+        long_start=long_start_d,
+        long_end=long_end_d,
+        as_of=as_of,
+        tz=args.tz,
+    )
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
