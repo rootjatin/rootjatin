@@ -82,7 +82,7 @@ If you liked it: ⭐ star a repo you enjoy, or send feedback — I actually read
 ## ⚡ Status Panel (Streak Highlight)
 
 <p align="center">
-  <img src="assets/streak.svg" alt="GitHub Streak" width="720"/>
+  <img src="assets/streak.svg" alt="GitHub Streak (API computed)" width="720"/>
 </p>
 
 <p align="center">
