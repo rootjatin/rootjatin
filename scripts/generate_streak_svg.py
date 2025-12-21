@@ -187,9 +187,10 @@ def render_svg(
   <text x="24" y="110" fill="#8b949e" font-size="12"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{fmt_range(cur_start, cur_end)}</text>
 
-  <text x="390" y="62" fill="#8b949e" font-size="13"
+  <!-- FIXED: Total (last Nd) value now directly under the title -->
+  <text x="540" y="62" fill="#8b949e" font-size="13" text-anchor="middle"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Total (last {total_days}d)</text>
-  <text x="696" y="88" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="end"
+  <text x="540" y="88" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="middle"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">{total_last_n}</text>
 
   <!-- Row 2: Longest #1 + Longest #2 -->
