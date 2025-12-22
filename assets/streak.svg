@@ -18,7 +18,7 @@
   <text x="540" y="62" fill="#8b949e" font-size="13" text-anchor="middle"
         font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">Total (last 365d)</text>
   <text x="540" y="88" fill="#58a6ff" font-size="22" font-weight="700" text-anchor="middle"
-        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">1210</text>
+        font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto">1220</text>
 
   <!-- Row 2: Longest #1 + Longest #2 -->
   <text x="24" y="140" fill="#8b949e" font-size="13"
