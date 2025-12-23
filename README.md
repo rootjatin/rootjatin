@@ -45,7 +45,7 @@ My portfolio is an interactive <b>Mario-style game</b> where you can explore my 
 
 ---
 
-## 👤 A bit more (kept short)
+## 👤 Career Highlights
 
 - 🌌 Space enthusiast (astronomy, telescopes, space-tech)
 - 🎯 Competitive shooter (10m Air Rifle • 50m 3-Position / 3P)
