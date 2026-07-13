@@ -83,10 +83,23 @@ I share project updates, technical experiments, and other engineering-related co
   <a href="https://youtube.com/@rootjatin"><strong>▶ youtube.com/@rootjatin</strong></a>
 </p>
 
+<p align="center">
+  <a href="https://rootjatin.github.io"><strong>Portfolio</strong></a> •
+  <a href="mailto:rootjatin@gmail.com"><strong>Email</strong></a> •
+  <a href="https://gitlab.com/jatin.ska"><strong>GitLab</strong></a> •
+  <a href="https://youtube.com/@rootjatin"><strong>YouTube</strong></a> •
+  <a href="https://orcid.org/0009-0007-0610-6411"><strong>ORCID</strong></a> •
+  <a href="https://app.hackthebox.com/profile/113818"><strong>Hack The Box</strong></a>
+</p>
+
+---
+
 ## 📫 Contact
 
 * **Email:** [rootjatin@gmail.com](mailto:rootjatin@gmail.com)
 * **Portfolio:** [rootjatin.github.io](https://rootjatin.github.io)
 * **GitLab:** [gitlab.com/jatin.ska](https://gitlab.com/jatin.ska)
 * **YouTube:** [youtube.com/@rootjatin](https://youtube.com/@rootjatin)
+* **ORCID:** [0009-0007-0610-6411](https://orcid.org/0009-0007-0610-6411)
 * **Hack The Box:** [View profile](https://app.hackthebox.com/profile/113818)
+
