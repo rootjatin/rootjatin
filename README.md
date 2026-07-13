@@ -1,3 +1,4 @@
+```markdown
 <p align="center">
   <img src="https://i.imgur.com/AQzm0xl_d.webp?maxwidth=1600&fidelity=grand" width="100%" alt="Banner"/>
 </p>
@@ -12,7 +13,8 @@ Control Systems Developer @ NCRA (India) • Robotics • Embedded • Controls 
   <a href="https://rootjatin.github.io"><b>Portfolio (Mario game): rootjatin.github.io</b></a> •
   <a href="mailto:rootjatin@gmail.com"><b>rootjatin@gmail.com</b></a> •
   <a href="https://www.gitlab.com/jatin.ska"><b>GitLab</b></a> •
-  <a href="https://app.hackthebox.com/profile/113818"><b>HackTheBox</b></a>
+  <a href="https://app.hackthebox.com/profile/113818"><b>HackTheBox</b></a> •
+  <a href="https://youtube.com/@rootjatin"><b>YouTube</b></a>
 </p>
 
 ---
@@ -74,4 +76,6 @@ Python • C/C++ • Embedded • Linux • Control Systems • OpenGL • CI/CD
 ## 📫 Contact
 
 - Email: <a href="mailto:rootjatin@gmail.com">rootjatin@gmail.com</a>  
-- Portfolio: <a href="https://rootjatin.github.io">rootjatin.github.io</a>
+- Portfolio: <a href="https://rootjatin.github.io">rootjatin.github.io</a>  
+- YouTube: <a href="https://youtube.com/@rootjatin">youtube.com/@rootjatin</a>
+```
