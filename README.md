@@ -31,7 +31,7 @@
   <a href="https://gitlab.com/jatin.ska">
     <img src="https://img.shields.io/badge/GitLab-jatin.ska-FC6D26?style=flat-square&logo=gitlab&logoColor=white" alt="GitLab">
   </a>
-  <a href="https://app.hackthebox.com/users/113818">
+  <a href="https://labs.hackthebox.com/achievement/badge/113818/214">
     <img src="https://img.shields.io/badge/Hack_The_Box-Profile-9FEF00?style=flat-square&logo=hackthebox&logoColor=black" alt="Hack The Box">
   </a>
 </p>
