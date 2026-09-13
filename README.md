@@ -52,6 +52,7 @@ My work and interests include:
 * Building telemetry, monitoring, and debugging tools
 * Working with Linux-based development environments
 * Exploring robotics, astronomy, space technology, and cybersecurity
+* https://youtube.com/shorts/OPm2nWdASgc?feature=share
 
 ---
 
