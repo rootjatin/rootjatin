@@ -74,7 +74,7 @@ My work and interests include:
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🔌 Embedded Systems</h3>
+      <h3>🔌 Embedded Systems and Electrical processes</h3>
       <p>
         Firmware development, hardware interfacing, real-time data handling, sensors, and actuator communication.
       </p>
