@@ -51,7 +51,7 @@ My work and interests include:
 * Integrating hardware and software into complete working platforms
 * Building telemetry, monitoring, and debugging tools
 * Working with Linux-based development environments
-* Exploring robotics, astronomy, space technology, and cybersecurit
+* Exploring robotics, astronomy, space technology.
 
 ---
 
