@@ -5,7 +5,7 @@
 <h1 align="center">Hi, I'm Jatin Sharma 👋</h1>
 
 <p align="center">
-  <strong>Control Systems Developer @ NCRA, India</strong>
+  <strong>Control Systems Developer for radio Telescope, India</strong>
 </p>
 
 <p align="center">
@@ -235,7 +235,6 @@ My ORCID profile provides a persistent identifier for my research and technical 
     <td><a href="https://app.hackthebox.com/profile/113818">View profile</a></td>
   </tr>
 </table>
-
 ---
 
 <p align="center">
